@@ -1,0 +1,6 @@
+framework module Pods_LendSystem {
+  umbrella header "Pods-LendSystem-umbrella.h"
+
+  export *
+  module * { export * }
+}
