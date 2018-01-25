@@ -7,21 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0727FFD01E8AC479006FBAAB /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0727FFCF1E8AC479006FBAAB /* Extentions.swift */; };
+		0729EA3C1E944616004C14E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729EA3B1E944616004C14E1 /* Constants.swift */; };
+		0729EA3F1E94493A004C14E1 /* student_default_image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0729EA3E1E94493A004C14E1 /* student_default_image.jpeg */; };
+		0729EA411E9464BF004C14E1 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729EA401E9464BF004C14E1 /* SignupController.swift */; };
+		0729EA441E947E31004C14E1 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729EA431E947E31004C14E1 /* Student.swift */; };
+		0729EA461E947EFC004C14E1 /* CreateStudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729EA451E947EFC004C14E1 /* CreateStudentController.swift */; };
+		0729EA4A1E94B50A004C14E1 /* CreateStudentController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729EA491E94B50A004C14E1 /* CreateStudentController+handlers.swift */; };
+		0729EA4F1E956DCF004C14E1 /* LendingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729EA4E1E956DCF004C14E1 /* LendingController.swift */; };
+		0729EA511E95881C004C14E1 /* Sandhink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0729EA501E95881C004C14E1 /* Sandhink.jpg */; };
+		0729EA531E958EF9004C14E1 /* CreateThingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0729EA521E958EF9004C14E1 /* CreateThingController.swift */; };
+		072AE8081E8F0E0800252774 /* LendSystemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072AE8071E8F0E0800252774 /* LendSystemController.swift */; };
+		072AE80C1E8F954100252774 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072AE80B1E8F954100252774 /* LoginController.swift */; };
+		072AE80E1E8FA1E000252774 /* ClassButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072AE80D1E8FA1E000252774 /* ClassButtons.swift */; };
+		073EF07D1EA7845E008226F5 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073EF07C1EA7845E008226F5 /* BaseCell.swift */; };
+		074146001EA5F9E000034FE6 /* LendingThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074145FF1EA5F9E000034FE6 /* LendingThing.swift */; };
+		074146021EA75B3100034FE6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074146011EA75B3100034FE6 /* User.swift */; };
+		074146041EA77D8C00034FE6 /* SettingsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074146031EA77D8C00034FE6 /* SettingsLauncher.swift */; };
+		074146061EA783BE00034FE6 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074146051EA783BE00034FE6 /* SettingCell.swift */; };
 		0768BCC61E898EBA001934B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0768BCC51E898EBA001934B5 /* AppDelegate.swift */; };
-		0768BCC81E898EBA001934B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0768BCC71E898EBA001934B5 /* ViewController.swift */; };
 		0768BCCB1E898EBA001934B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0768BCC91E898EBA001934B5 /* Main.storyboard */; };
 		0768BCCD1E898EBA001934B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0768BCCC1E898EBA001934B5 /* Assets.xcassets */; };
 		0768BCD01E898EBA001934B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0768BCCE1E898EBA001934B5 /* LaunchScreen.storyboard */; };
+		0768BCD81E898F8C001934B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0768BCD71E898F8C001934B5 /* GoogleService-Info.plist */; };
+		0775B58E1EA5215900017509 /* LendSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0775B58D1EA5215900017509 /* LendSystem.swift */; };
+		07B1B94E1EA8D48F00D874A9 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B1B94D1EA8D48F00D874A9 /* HistoryController.swift */; };
+		07B1B9501EA8D6C200D874A9 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B1B94F1EA8D6C200D874A9 /* HistoryCell.swift */; };
+		07B1B9521EA92F5700D874A9 /* BorrowedStudentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B1B9511EA92F5700D874A9 /* BorrowedStudentsController.swift */; };
+		07B1B9541EA93BB100D874A9 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B1B9531EA93BB100D874A9 /* StudentCell.swift */; };
+		07E9344B1E95B01700E80518 /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E9344A1E95B01700E80518 /* Thing.swift */; };
+		07E9344D1E95B0E900E80518 /* CreateThingController+handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E9344C1E95B0E900E80518 /* CreateThingController+handler.swift */; };
+		07E9344F1E95B1C000E80518 /* thing_default_image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 07E9344E1E95B1C000E80518 /* thing_default_image.jpeg */; };
+		D7A6A5D934F5C55219314525 /* Pods_LendSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9799177AEA6C75B0F8D21C /* Pods_LendSystem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0727FFCF1E8AC479006FBAAB /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		0729EA3B1E944616004C14E1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0729EA3E1E94493A004C14E1 /* student_default_image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = student_default_image.jpeg; sourceTree = "<group>"; };
+		0729EA401E9464BF004C14E1 /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		0729EA431E947E31004C14E1 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		0729EA451E947EFC004C14E1 /* CreateStudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateStudentController.swift; sourceTree = "<group>"; };
+		0729EA491E94B50A004C14E1 /* CreateStudentController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CreateStudentController+handlers.swift"; sourceTree = "<group>"; };
+		0729EA4E1E956DCF004C14E1 /* LendingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LendingController.swift; sourceTree = "<group>"; };
+		0729EA501E95881C004C14E1 /* Sandhink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sandhink.jpg; sourceTree = "<group>"; };
+		0729EA521E958EF9004C14E1 /* CreateThingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateThingController.swift; sourceTree = "<group>"; };
+		072AE8071E8F0E0800252774 /* LendSystemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LendSystemController.swift; sourceTree = "<group>"; };
+		072AE80B1E8F954100252774 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		072AE80D1E8FA1E000252774 /* ClassButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassButtons.swift; sourceTree = "<group>"; };
+		073EF07C1EA7845E008226F5 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		074145FF1EA5F9E000034FE6 /* LendingThing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LendingThing.swift; sourceTree = "<group>"; };
+		074146011EA75B3100034FE6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		074146031EA77D8C00034FE6 /* SettingsLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLauncher.swift; sourceTree = "<group>"; };
+		074146051EA783BE00034FE6 /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		0768BCC21E898EBA001934B5 /* LendSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LendSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0768BCC51E898EBA001934B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0768BCC71E898EBA001934B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0768BCCA1E898EBA001934B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0768BCCC1E898EBA001934B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0768BCCF1E898EBA001934B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0768BCD11E898EBA001934B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0768BCD71E898F8C001934B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0775B58D1EA5215900017509 /* LendSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LendSystem.swift; sourceTree = "<group>"; };
+		07B1B94D1EA8D48F00D874A9 /* HistoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		07B1B94F1EA8D6C200D874A9 /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		07B1B9511EA92F5700D874A9 /* BorrowedStudentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorrowedStudentsController.swift; sourceTree = "<group>"; };
+		07B1B9531EA93BB100D874A9 /* StudentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+		07E9344A1E95B01700E80518 /* Thing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		07E9344C1E95B0E900E80518 /* CreateThingController+handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CreateThingController+handler.swift"; sourceTree = "<group>"; };
+		07E9344E1E95B1C000E80518 /* thing_default_image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thing_default_image.jpeg; sourceTree = "<group>"; };
+		79FA8E5DFFE408FE5DDB2BDA /* Pods-LendSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendSystem.release.xcconfig"; path = "Pods/Target Support Files/Pods-LendSystem/Pods-LendSystem.release.xcconfig"; sourceTree = "<group>"; };
+		803D48CA901A639406809097 /* Pods-LendSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LendSystem.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LendSystem/Pods-LendSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		BD9799177AEA6C75B0F8D21C /* Pods_LendSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LendSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +85,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7A6A5D934F5C55219314525 /* Pods_LendSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0727FFC81E8AB757006FBAAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				072AE8071E8F0E0800252774 /* LendSystemController.swift */,
+				07B1B94D1EA8D48F00D874A9 /* HistoryController.swift */,
+				07B1B9511EA92F5700D874A9 /* BorrowedStudentsController.swift */,
+				0729EA4E1E956DCF004C14E1 /* LendingController.swift */,
+				0729EA521E958EF9004C14E1 /* CreateThingController.swift */,
+				07E9344C1E95B0E900E80518 /* CreateThingController+handler.swift */,
+				0729EA451E947EFC004C14E1 /* CreateStudentController.swift */,
+				0729EA491E94B50A004C14E1 /* CreateStudentController+handlers.swift */,
+				072AE80B1E8F954100252774 /* LoginController.swift */,
+				0729EA401E9464BF004C14E1 /* SignupController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0727FFCE1E8AC23B006FBAAB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0727FFCF1E8AC479006FBAAB /* Extentions.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		0729EA3A1E944456004C14E1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0729EA3B1E944616004C14E1 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		0729EA3D1E944930004C14E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0729EA3E1E94493A004C14E1 /* student_default_image.jpeg */,
+				0729EA501E95881C004C14E1 /* Sandhink.jpg */,
+				07E9344E1E95B1C000E80518 /* thing_default_image.jpeg */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0729EA421E947DFF004C14E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0729EA431E947E31004C14E1 /* Student.swift */,
+				07E9344A1E95B01700E80518 /* Thing.swift */,
+				0775B58D1EA5215900017509 /* LendSystem.swift */,
+				074145FF1EA5F9E000034FE6 /* LendingThing.swift */,
+				074146011EA75B3100034FE6 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		072AE80F1E8FA1E700252774 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				074146031EA77D8C00034FE6 /* SettingsLauncher.swift */,
+				072AE80D1E8FA1E000252774 /* ClassButtons.swift */,
+				074146051EA783BE00034FE6 /* SettingCell.swift */,
+				073EF07C1EA7845E008226F5 /* BaseCell.swift */,
+				07B1B94F1EA8D6C200D874A9 /* HistoryCell.swift */,
+				07B1B9531EA93BB100D874A9 /* StudentCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		0768BCB91E898EB9001934B5 = {
 			isa = PBXGroup;
 			children = (
 				0768BCC41E898EBA001934B5 /* LendSystem */,
 				0768BCC31E898EBA001934B5 /* Products */,
+				E24DB6104005826A0B7E0AD3 /* Pods */,
+				8D629F4B3463C3FB246D425D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +181,45 @@
 		0768BCC41E898EBA001934B5 /* LendSystem */ = {
 			isa = PBXGroup;
 			children = (
+				0775B58F1EA53FEE00017509 /* Common */,
+				0729EA421E947DFF004C14E1 /* Models */,
+				0729EA3D1E944930004C14E1 /* Source */,
+				0729EA3A1E944456004C14E1 /* Constants */,
+				072AE80F1E8FA1E700252774 /* Views */,
+				0727FFCE1E8AC23B006FBAAB /* Extension */,
+				0727FFC81E8AB757006FBAAB /* Controller */,
 				0768BCC51E898EBA001934B5 /* AppDelegate.swift */,
-				0768BCC71E898EBA001934B5 /* ViewController.swift */,
 				0768BCC91E898EBA001934B5 /* Main.storyboard */,
 				0768BCCC1E898EBA001934B5 /* Assets.xcassets */,
 				0768BCCE1E898EBA001934B5 /* LaunchScreen.storyboard */,
 				0768BCD11E898EBA001934B5 /* Info.plist */,
+				0768BCD71E898F8C001934B5 /* GoogleService-Info.plist */,
 			);
 			path = LendSystem;
+			sourceTree = "<group>";
+		};
+		0775B58F1EA53FEE00017509 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		8D629F4B3463C3FB246D425D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD9799177AEA6C75B0F8D21C /* Pods_LendSystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E24DB6104005826A0B7E0AD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				803D48CA901A639406809097 /* Pods-LendSystem.debug.xcconfig */,
+				79FA8E5DFFE408FE5DDB2BDA /* Pods-LendSystem.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0768BCD41E898EBA001934B5 /* Build configuration list for PBXNativeTarget "LendSystem" */;
 			buildPhases = (
+				0087C20810EB6D9EE9DF585D /* [CP] Check Pods Manifest.lock */,
 				0768BCBE1E898EBA001934B5 /* Sources */,
 				0768BCBF1E898EBA001934B5 /* Frameworks */,
 				0768BCC01E898EBA001934B5 /* Resources */,
+				913FBEE9939D2B1CF352D18B /* [CP] Embed Pods Frameworks */,
+				562D9BF8D4E4D1E9372AF32D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +257,8 @@
 				TargetAttributes = {
 					0768BCC11E898EBA001934B5 = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 33VASA23GZ;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,20 +286,94 @@
 			buildActionMask = 2147483647;
 			files = (
 				0768BCD01E898EBA001934B5 /* LaunchScreen.storyboard in Resources */,
+				0768BCD81E898F8C001934B5 /* GoogleService-Info.plist in Resources */,
+				07E9344F1E95B1C000E80518 /* thing_default_image.jpeg in Resources */,
 				0768BCCD1E898EBA001934B5 /* Assets.xcassets in Resources */,
+				0729EA511E95881C004C14E1 /* Sandhink.jpg in Resources */,
+				0729EA3F1E94493A004C14E1 /* student_default_image.jpeg in Resources */,
 				0768BCCB1E898EBA001934B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0087C20810EB6D9EE9DF585D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		562D9BF8D4E4D1E9372AF32D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LendSystem/Pods-LendSystem-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913FBEE9939D2B1CF352D18B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LendSystem/Pods-LendSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0768BCBE1E898EBA001934B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0768BCC81E898EBA001934B5 /* ViewController.swift in Sources */,
+				072AE80E1E8FA1E000252774 /* ClassButtons.swift in Sources */,
+				07E9344D1E95B0E900E80518 /* CreateThingController+handler.swift in Sources */,
+				074146041EA77D8C00034FE6 /* SettingsLauncher.swift in Sources */,
+				07B1B9541EA93BB100D874A9 /* StudentCell.swift in Sources */,
+				072AE8081E8F0E0800252774 /* LendSystemController.swift in Sources */,
+				0729EA411E9464BF004C14E1 /* SignupController.swift in Sources */,
+				072AE80C1E8F954100252774 /* LoginController.swift in Sources */,
+				0729EA531E958EF9004C14E1 /* CreateThingController.swift in Sources */,
+				07B1B9521EA92F5700D874A9 /* BorrowedStudentsController.swift in Sources */,
+				0729EA4A1E94B50A004C14E1 /* CreateStudentController+handlers.swift in Sources */,
+				073EF07D1EA7845E008226F5 /* BaseCell.swift in Sources */,
+				074146021EA75B3100034FE6 /* User.swift in Sources */,
+				07B1B9501EA8D6C200D874A9 /* HistoryCell.swift in Sources */,
+				07B1B94E1EA8D48F00D874A9 /* HistoryController.swift in Sources */,
+				074146061EA783BE00034FE6 /* SettingCell.swift in Sources */,
 				0768BCC61E898EBA001934B5 /* AppDelegate.swift in Sources */,
+				074146001EA5F9E000034FE6 /* LendingThing.swift in Sources */,
+				0727FFD01E8AC479006FBAAB /* Extentions.swift in Sources */,
+				0729EA4F1E956DCF004C14E1 /* LendingController.swift in Sources */,
+				07E9344B1E95B01700E80518 /* Thing.swift in Sources */,
+				0729EA3C1E944616004C14E1 /* Constants.swift in Sources */,
+				0729EA461E947EFC004C14E1 /* CreateStudentController.swift in Sources */,
+				0775B58E1EA5215900017509 /* LendSystem.swift in Sources */,
+				0729EA441E947E31004C14E1 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,25 +496,39 @@
 		};
 		0768BCD51E898EBA001934B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803D48CA901A639406809097 /* Pods-LendSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33VASA23GZ;
 				INFOPLIST_FILE = LendSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.ceasar.LendSystem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.ceasar.lendsystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24db24f3-c231-4064-888a-9dd4e8e4e05d";
+				PROVISIONING_PROFILE_SPECIFIER = lend_new;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0768BCD61E898EBA001934B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FA8E5DFFE408FE5DDB2BDA /* Pods-LendSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 33VASA23GZ;
 				INFOPLIST_FILE = LendSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.ceasar.LendSystem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.ceasar.lendsystem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24db24f3-c231-4064-888a-9dd4e8e4e05d";
+				PROVISIONING_PROFILE_SPECIFIER = lend_new;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -301,6 +551,7 @@
 				0768BCD61E898EBA001934B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

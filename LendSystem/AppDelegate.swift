@@ -1,12 +1,13 @@
-//
+ //
 //  AppDelegate.swift
 //  LendSystem
 //
-//  Created by PAC on 3/27/17.
-//  Copyright © 2017 PAC. All rights reserved.
+//  Created by John Nik on 3/27/17.
+//  Copyright © 2017 johnik703. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FIRApp.configure()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = UINavigationController(rootViewController: LendSystemController())
+        
+        
         return true
     }
 
